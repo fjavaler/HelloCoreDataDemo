@@ -13,6 +13,10 @@
 		F8B1F024270406370050E743 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B1F012270406360050E743 /* ContentView.swift */; };
 		F8B1F025270406370050E743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B1F013270406370050E743 /* Assets.xcassets */; };
 		F8B1F026270406370050E743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B1F013270406370050E743 /* Assets.xcassets */; };
+		F8B1F031270406500050E743 /* HelloCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8B1F02F270406500050E743 /* HelloCoreDataModel.xcdatamodeld */; };
+		F8B1F032270406500050E743 /* HelloCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8B1F02F270406500050E743 /* HelloCoreDataModel.xcdatamodeld */; };
+		F8B1F0342704069F0050E743 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B1F0332704069F0050E743 /* Persistence.swift */; };
+		F8B1F0352704069F0050E743 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B1F0332704069F0050E743 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,8 @@
 		F8B1F018270406370050E743 /* HelloCoreData Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloCoreData Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B1F01E270406370050E743 /* HelloCoreData Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloCoreData Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B1F020270406370050E743 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F8B1F030270406500050E743 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F8B1F0332704069F0050E743 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,8 @@
 				F8B1F011270406360050E743 /* HelloCoreData_DemoApp.swift */,
 				F8B1F012270406360050E743 /* ContentView.swift */,
 				F8B1F013270406370050E743 /* Assets.xcassets */,
+				F8B1F02F270406500050E743 /* HelloCoreDataModel.xcdatamodeld */,
+				F8B1F0332704069F0050E743 /* Persistence.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -177,7 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B1F023270406370050E743 /* ContentView.swift in Sources */,
+				F8B1F0342704069F0050E743 /* Persistence.swift in Sources */,
 				F8B1F021270406370050E743 /* HelloCoreData_DemoApp.swift in Sources */,
+				F8B1F031270406500050E743 /* HelloCoreDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B1F024270406370050E743 /* ContentView.swift in Sources */,
+				F8B1F0352704069F0050E743 /* Persistence.swift in Sources */,
 				F8B1F022270406370050E743 /* HelloCoreData_DemoApp.swift in Sources */,
+				F8B1F032270406500050E743 /* HelloCoreDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +464,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F8B1F02F270406500050E743 /* HelloCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8B1F030270406500050E743 /* Model.xcdatamodel */,
+			);
+			currentVersion = F8B1F030270406500050E743 /* Model.xcdatamodel */;
+			path = HelloCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F8B1F00C270406360050E743 /* Project object */;
 }

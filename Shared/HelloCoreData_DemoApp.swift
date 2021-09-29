@@ -11,7 +11,7 @@ import SwiftUI
 struct HelloCoreData_DemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(coreDM: Persistence())
         }
     }
 }
